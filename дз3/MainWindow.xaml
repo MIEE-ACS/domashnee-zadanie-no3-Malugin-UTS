@@ -1,0 +1,17 @@
+﻿<Window x:Class="дз3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:дз3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="99,83,0,0" TextWrapping="Wrap" Text="_" VerticalAlignment="Top" Width="540" Height="148" TextChanged="tb1_TextChanged"/>
+        <Label Content="Впишите ваш текст" HorizontalAlignment="Left" Margin="99,52,0,0" VerticalAlignment="Top" Width="153"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="99,335,0,0" TextWrapping="Wrap" Text="_" VerticalAlignment="Top" Width="153" Height="34" TextChanged="tb2_TextChanged"/>
+        <Button x:Name="bt1" Content="Подсчет предложений" HorizontalAlignment="Left" Margin="99,267,0,0" VerticalAlignment="Top" Width="131" Height="27" Click="bt1_Click"/>
+        <Label Content="Ответ" HorizontalAlignment="Left" Margin="99,304,0,0" VerticalAlignment="Top" Width="153"/>
+
+    </Grid>
+</Window>
